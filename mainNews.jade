@@ -1,0 +1,26 @@
+.carousel.slide#mainNews(data-ride='carousel')
+    ol.carousel-indicators
+        li.active(data-target='#mainNews', data-slide-to='0')
+        li(data-target='#mainNews', data-slide-to='1')
+        li(data-target='#mainNews', data-slide-to='2')
+
+    .carousel-inner(role='listbox')
+        .item.active
+            img(src='news/main1.jpg')
+            .carousel-caption
+                h3 Новость 1
+                
+        .item
+            img(src='news/main2.jpg')
+            .carousel-caption
+                h3 Новость 2
+                
+        .item
+            img(src='news/main3.jpg')
+            .carousel-caption
+                h3 Новость 3
+
+    a.left.carousel-control(href='#mainNews', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+    a.right.carousel-control(href='#mainNews', role='button', data-slide='next')
+        span.glyphicon.glyphicon-chevron-right(aria-hidden='true')

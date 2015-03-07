@@ -1,0 +1,15 @@
+#wrapper {
+    max-width: 1100px;
+}
+#content {
+    background: #fff;
+    padding-top: 15px;
+}
+body {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background: url(http://st.kp.yandex.net/images/bnnr/brand/69a237ee.jpg);
+}
+.media {
+    margin-bottom: 50px;
+}

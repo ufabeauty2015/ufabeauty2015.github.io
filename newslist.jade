@@ -1,0 +1,8 @@
+include mainNews
+- for (var i=0; i<news.length; i++)
+    .media
+        .media-left
+            img.media-object(src='#{news[i].image}')
+        .media-body
+            h4.media-heading #{news[i].header}
+            div #{news[i].text}

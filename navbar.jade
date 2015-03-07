@@ -1,0 +1,16 @@
+include vars
+nav.navbar.navbar-inverse
+    .container-fluid
+        .navbar-header
+            a.navbar-brand(href='#') #{sitename}
+
+        .collapse.navbar-collapse
+            ul.nav.navbar-nav
+                - for (var i=0; i<mainCats.length; i++)
+                    li
+                        a(href='#') #{mainCats[i]}
+            
+            form.navbar-form.navbar-left(role='search')
+                .form-group
+                   input.form-control(type='text', placeholder='#{searchPlaceholder}')
+                button.btn.btn-default(type='submit') #{search}
