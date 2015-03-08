@@ -5,14 +5,18 @@ html
         title Женский портал Уфы
         include includes
     body
-        .bgwrapper
         .container#wrapper
             include navbar
             .row#content
                 .col-xs-9
-                    include newslist
+                    .media
+                        .media-left
+                            img.media-object(src='#{news[0].image}')
+                        .media-body
+                            h4.media-heading #{news[0].header}
+                            div #{news[0].text}
                 .col-xs-3
-                    include userbar 
+                    include userbar
             .row#content
                 .col-xs-12
                     include footer

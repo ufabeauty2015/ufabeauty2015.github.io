@@ -8,8 +8,25 @@
 body {
     margin-top: 100px;
     margin-bottom: 20px;
-    background: url(http://st.kp.yandex.net/images/bnnr/brand/69a237ee.jpg);
 }
 .media {
     margin-bottom: 50px;
+}
+#mainNews {
+    max-width: 700px;
+}
+.bgwrapper {
+    z-index: -1;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-color: rgba(0,0,0,0.6);
+  -webkit-filter: blur(5px);
+    background: url(http://mylitta.ru/uploads/posts/2013-05/1369119041_fashion-and-beauty-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#footer
+{
+    max-width:300;
+    background:#0f0;
 }

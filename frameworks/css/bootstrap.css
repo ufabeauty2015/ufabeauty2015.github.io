@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=News+Cycle:400,700");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic);
 /*!
  * bootswatch v3.3.2
  * Homepage: http://bootswatch.com
@@ -1171,7 +1171,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Open Sans Condensed", "Arial Narrow Bold", sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: #000000;
@@ -6562,7 +6562,7 @@ button.close {
 }
 .navbar {
   font-size: 18px;
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Open Sans Condensed", "Arial Narrow Bold", sans-serif;
   font-weight: 700;
 }
 .navbar-default .badge {
@@ -6616,7 +6616,7 @@ button.close {
 .jumbotron h4,
 .jumbotron h5,
 .jumbotron h6 {
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Open Sans Condensed", "Arial Narrow Bold", sans-serif;
   font-weight: 700;
   color: #000;
 }
